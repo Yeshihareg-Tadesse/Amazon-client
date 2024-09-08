@@ -3,5 +3,9 @@
   publish = "build"
   base = "Amazon-client"
 
-[context.production]
+[[redirects]]
+  from = "/old-path"
+  to = "/new-path"
+  status = 301
   
+
