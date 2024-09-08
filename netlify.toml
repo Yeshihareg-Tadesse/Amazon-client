@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "build"
+  publish = "Amazon-client/build"
   base = "Amazon-client"
 
 [[redirects]]
