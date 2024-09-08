@@ -1,11 +1,9 @@
 [build]
-  command = "npm run build"
-  publish = "Amazon-client/build"
-  base = "Amazon-client"
+  command = "npm run build"        # Command to build your project
+  base = "Amazon-client"          # Directory where the build command is run from
+  publish = "Amazon-client/build" # Directory containing the build output files
 
 [[redirects]]
   from = "/old-path"
   to = "/new-path"
   status = 301
-  
-
